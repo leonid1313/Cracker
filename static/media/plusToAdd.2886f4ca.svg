@@ -1,0 +1,14 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14" width="14" height="14">
+	<title>Cracker constructor</title>
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: #ffffff } 
+	</style>
+	<g id="Cracker constructor">
+		<g id="add to cart button">
+			<g id="Add">
+				<path id="Shape" class="shp0" d="M6 0L6 6L0 6L0 8L6 8L6 14L8 14L8 8L14 8L14 6L8 6L8 0L6 0Z" />
+			</g>
+		</g>
+	</g>
+</svg>

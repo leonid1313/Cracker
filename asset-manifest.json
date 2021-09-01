@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.css": "/Cracker/static/css/main.f617826d.chunk.css",
+    "main.js": "/Cracker/static/js/main.ce8b1b1e.chunk.js",
+    "main.js.map": "/Cracker/static/js/main.ce8b1b1e.chunk.js.map",
+    "runtime-main.js": "/Cracker/static/js/runtime-main.d124cd4f.js",
+    "runtime-main.js.map": "/Cracker/static/js/runtime-main.d124cd4f.js.map",
+    "static/js/2.1584c8d0.chunk.js": "/Cracker/static/js/2.1584c8d0.chunk.js",
+    "static/js/2.1584c8d0.chunk.js.map": "/Cracker/static/js/2.1584c8d0.chunk.js.map",
+    "index.html": "/Cracker/index.html",
+    "static/css/main.f617826d.chunk.css.map": "/Cracker/static/css/main.f617826d.chunk.css.map",
+    "static/js/2.1584c8d0.chunk.js.LICENSE.txt": "/Cracker/static/js/2.1584c8d0.chunk.js.LICENSE.txt",
+    "static/media/index.scss": "/Cracker/static/media/Avenir-Heavy.9a5eab6b.ttf",
+    "static/media/About.scss": "/Cracker/static/media/Cookie.6d431650.webp",
+    "static/media/Details.scss": "/Cracker/static/media/angle-down.53742741.svg",
+    "static/media/FooterSection.scss": "/Cracker/static/media/Footer-bg.3a12b5f8.webp",
+    "static/media/Constructor.scss": "/Cracker/static/media/plusToAdd.2886f4ca.svg",
+    "static/media/HeaderSection.scss": "/Cracker/static/media/cake.74b225cf.webp",
+    "static/media/Order-info.scss": "/Cracker/static/media/cancel.0395e585.svg",
+    "static/media/Order.scss": "/Cracker/static/media/close.8c94013b.svg",
+    "static/media/Navigation.scss": "/Cracker/static/media/underline.2c2646bc.svg",
+    "static/media/corn.b97762aa.svg": "/Cracker/static/media/corn.b97762aa.svg",
+    "static/media/Share.scss": "/Cracker/static/media/share.63c43f44.svg",
+    "static/media/ingredient1.ce6acb3e.svg": "/Cracker/static/media/ingredient1.ce6acb3e.svg",
+    "static/media/ingredient2.d4d27a61.svg": "/Cracker/static/media/ingredient2.d4d27a61.svg",
+    "static/media/ingredient3.023cd4fa.svg": "/Cracker/static/media/ingredient3.023cd4fa.svg",
+    "static/media/ingredient4.f90d9b26.svg": "/Cracker/static/media/ingredient4.f90d9b26.svg",
+    "static/media/MainSection.scss": "/Cracker/static/media/white-rectangle.bcc6e4d1.webp",
+    "static/media/Address.scss": "/Cracker/static/media/map-marker.c5f88712.svg",
+    "static/media/pacage.fd874014.svg": "/Cracker/static/media/pacage.fd874014.svg",
+    "static/media/Phone.scss": "/Cracker/static/media/phone.2fe4fa27.svg",
+    "static/media/semen.e86e65ea.svg": "/Cracker/static/media/semen.e86e65ea.svg",
+    "static/media/sesame.8174e601.svg": "/Cracker/static/media/sesame.8174e601.svg",
+    "static/media/soybean.5c174538.svg": "/Cracker/static/media/soybean.5c174538.svg",
+    "static/media/wheat.66990852.svg": "/Cracker/static/media/wheat.66990852.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d124cd4f.js",
+    "static/js/2.1584c8d0.chunk.js",
+    "static/css/main.f617826d.chunk.css",
+    "static/js/main.ce8b1b1e.chunk.js"
+  ]
+}
