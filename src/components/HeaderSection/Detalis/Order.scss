@@ -1,0 +1,74 @@
+.order-info {
+  &__numbers {
+    display: flex;
+    padding: 0 10px;
+    margin-left: 36px;
+    align-items: baseline;
+    position: relative;
+    flex-grow: 1;
+    gap: 36px;
+    max-width: 460px;
+
+    &::after {
+      content: '';
+      width: 420px;
+      height: 2px;
+      border-radius: 1px;
+      background-color: #333333;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      opacity: 0.1;
+    }
+  }
+
+  &__semen {
+    height: 30px;
+    transform: rotate(-40deg);
+  }
+
+  &__proportion {
+    color: #ff4200;
+    font-size: 12px;
+  }
+
+  &__weight, &__price {
+    font-size: 18px;
+    line-height: 33px;
+    color: #333333;
+    text-align: center;
+  }
+
+  &__weight {
+    width: 93px;
+    padding: 0 9.5% 0 1%;
+  }
+
+  &__remove-order {
+    width: 32px;
+    height: 32px;
+    background: url('./icons-order/close.svg') no-repeat center;
+    background-size: cover;
+    transition: transform 0.3s;
+    cursor: pointer;
+
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+
+  @media (max-width:650px) {
+    &__proportion {
+      display: none;
+    }
+
+    &__numbers {
+      max-width: 250px;
+      flex-grow: 0;
+
+      &::after {
+        width: 100%;
+      }
+    }
+  }
+}

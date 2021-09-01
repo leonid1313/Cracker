@@ -1,0 +1,95 @@
+@import '../../../styles/utils/variables.scss';
+
+.about {
+  max-width: 1920px;
+  margin: 0 auto;
+  position: relative;
+
+  &__title {
+    font-size: $medium;
+    letter-spacing: 10px;
+    line-height: 60px;
+    color: #666;
+    font-family: "Fredoka One";
+    text-align: right;
+
+    position: relative;
+    z-index: 1;
+
+    max-width: 1475px;
+    padding-top: 80px;
+  }
+
+  &__cookie {
+    background: url('./Cookie.webp') no-repeat right;
+    background-size: cover;
+
+    width: 390px;
+    height: 390px;
+    border-radius: 50%;
+
+    position: absolute;
+    top: 80px;
+    left: 27.6%;
+  }
+
+  &__content {
+    position: absolute;
+    right: 0;
+    top: 185px;
+
+    width: 64%;
+    min-height: 364px;
+    padding: 35px 15px 40px 75px;
+
+    background-color: #d7bfbf;
+    opacity: 0.74;
+  }
+
+  &__text {
+    max-width: 620px;
+
+    line-height: 28px;
+    color: #333;
+    text-align: justify;
+    text-indent: 15px;
+  }
+
+  &__logo {
+    display: inline-block;
+
+    font-size: $extralarge;
+    line-height: 61px;
+    color: #333333;
+    font-family: "Kristi";
+    text-align: center;
+
+    position: absolute;
+    bottom: -20px;
+    right: 38%;
+  }
+  @media (max-width:800px) {
+    &__content {
+      width: 90%;
+      padding: 35px 20px 40px;
+    }
+  }
+
+  @media (max-width: 550px) {
+    &__title {
+      font-size: $small;
+      text-align: center;
+      margin-bottom: 20px;
+
+      padding-top: 30px;
+    }
+
+    &__cookie {
+      display: none;
+    }
+
+    &__content {
+      top: 160px;
+    }
+  }
+}

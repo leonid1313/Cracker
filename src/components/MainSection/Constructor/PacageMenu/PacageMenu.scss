@@ -1,0 +1,56 @@
+.constructor {
+  &__pacage-list {
+    width: 41.7%;
+    height: 180px;
+    border-radius: 30px;
+    background-color: #f4f4f4;
+    border: 1px solid #ff4200;
+  
+    position: absolute;
+    left: 170px;
+    top: 70px;
+    z-index: 1;
+    overflow: hidden;
+  }
+
+  &__pacage-item {
+    font-size: 24px;
+    width: 100%;
+    line-height: 60px;
+    color: #ff4200;
+    font-family: "Avenir";
+    text-align: center;
+  
+    height: 33.3%;
+    margin: 0 auto;
+    cursor: pointer;
+  
+    &:hover {
+      background-color: #aaa;
+    }
+  
+    &:not(:last-child) {
+      border-bottom: 1px solid #ff4200;
+    }
+  }
+
+  @media (max-width: 800px) {
+    &__pacage-list {
+      width: fit-content;
+  
+      position: absolute;
+      left: 10px;
+      top: 70px;
+      z-index: 1;
+    }
+
+    &__pacage-item {
+      padding: 0 10px;
+    }
+  }
+}
+
+
+
+
+

@@ -1,0 +1,10 @@
+.bottom {
+  background: url('./Footer-bg.webp') no-repeat center;
+  background-size: cover;
+  height: 790px;
+
+  @media (max-width: 570px) {
+    height: 500px;
+  }
+}
+

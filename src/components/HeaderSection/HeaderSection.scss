@@ -1,0 +1,10 @@
+.upper-section {
+  height: 920px;
+  background: url('./cake.webp') no-repeat;
+  background-position-y: -100px;
+  background-size: cover;
+
+  @media (max-width: 1550px) {
+    background-position: center;
+  }
+}

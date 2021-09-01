@@ -1,0 +1,28 @@
+.phone {
+  &__icon {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: #fff;
+    font-family: "Fredoka One";
+
+    &::before {
+      content: url('./phone.svg');
+      padding-left: 10px;
+      padding-right: 18px;
+    }
+  }
+
+  &__link {
+    display: block;
+    padding-left: 50px;
+
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 25px;
+    color: #fff;
+  }
+}

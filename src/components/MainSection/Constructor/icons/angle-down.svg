@@ -1,0 +1,14 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 11" width="20" height="11">
+	<title>Cracker constructor</title>
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: #ff4100 } 
+	</style>
+	<g id="Cracker constructor">
+		<g id="choose pack">
+			<g id="choose pack button">
+				<path id="fa-angle-down копия" class="shp0" d="M19.81 1.13L18.8 0.18C18.67 0.06 18.51 -0.01 18.34 -0.01C18.17 -0.01 18.01 0.06 17.88 0.18L10 7.62L2.12 0.18C1.99 0.06 1.83 -0.01 1.66 -0.01C1.48 -0.01 1.33 0.06 1.2 0.18L0.2 1.13C0.06 1.26 -0.01 1.4 -0.01 1.56C-0.01 1.73 0.06 1.87 0.2 2L9.54 10.82C9.67 10.94 9.83 11 10 11C10.17 11 10.33 10.94 10.46 10.82L19.81 2C19.94 1.87 20.01 1.73 20.01 1.56C20.01 1.4 19.94 1.26 19.81 1.13L19.81 1.13Z" />
+			</g>
+		</g>
+	</g>
+</svg>

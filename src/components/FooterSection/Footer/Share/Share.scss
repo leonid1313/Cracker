@@ -1,0 +1,87 @@
+.share {
+  padding-right: 10px;
+  width: 350px;
+
+  &__icon {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: #fff;
+    font-family: "Fredoka One";
+
+    &::before {
+      content: url('./icons/share.svg');
+      padding-left: 10px;
+      padding-right: 18px;
+    }
+  }
+
+  &__link {
+    display: block;
+    margin-left: 60px;
+    margin-bottom: 25px;
+    width: 50px;
+    height: 50px;
+    border: 1px solid #f4f4f4;
+    border-radius: 50%;
+
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 25px;
+    color: #fff;
+
+    &::after {
+      position: relative;
+      right: -65px;
+      top: 10px;
+      padding-right: 10px;
+    }
+  }
+
+  &__link--pr {
+    background: url('./icons/pinterest.svg') no-repeat center;
+    &::after {
+      content: 'https://www.pinterest.com/';
+    }
+  }
+
+  &__link--fb {
+    background: url('./icons/facebook.svg') no-repeat bottom;
+    background-position-x: 70%;
+
+    &::after {
+      content: 'https://www.facebook.com/';
+    }
+  }
+
+  &__link--gl {
+    background: url('./icons/google.svg') no-repeat;
+    background-position: 70% 70%;
+
+    &::after {
+      content: 'https://www.google.com/';
+    }
+  }
+
+  @media (max-width: 800px) {
+    & {
+      width: auto;
+    }
+
+    &__link {
+      &::after {
+        display: none;
+      }
+    }
+  }
+
+  @media (max-width: 570px) {
+    &__link {
+      display: inline-block;
+      margin-left: 10px;
+    }
+  }
+}
